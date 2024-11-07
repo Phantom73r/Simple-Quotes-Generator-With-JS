@@ -1,0 +1,28 @@
+div{
+    /* font-size: 40px; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-size: 2rem;
+}
+div h2{
+    font-size: 4rem;
+ font-weight: bolder;
+ padding: 0;
+ margin: 0;
+}
+button{
+    color: white;
+    width: 12rem;
+    height: 3rem;
+    background-color:green;
+    border-radius: 12px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: red;
+}
