@@ -43,7 +43,7 @@ var generateRandomNumber=Math.floor(Math.random()*array.length);
 document.getElementById('myQuote').innerHTML=array[generateRandomNumber].quote;
 document.getElementById('author').innerHTML=array[generateRandomNumber].author;
 
-// console.log('clicked');
+console.log(generateRandomNumber);
 
 }
 
