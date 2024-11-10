@@ -39,7 +39,7 @@ var array=[{
 
 
 function getQuote(){
-var generateRandomNumber=Math.floor(Math.random()*10);
+var generateRandomNumber=Math.floor(Math.random()*array.length);
 document.getElementById('myQuote').innerHTML=array[generateRandomNumber].quote;
 document.getElementById('author').innerHTML=array[generateRandomNumber].author;
 
