@@ -1,4 +1,4 @@
-var array=[{
+var arrayOfQuotes=[{
     quote:" “Be yourself; everyone else is already taken.” ",
     author:"― Oscar Wilde"
 },{
@@ -39,9 +39,9 @@ var array=[{
 
 
 function getQuote(){
-var generateRandomNumber=Math.floor(Math.random()*array.length);
-document.getElementById('myQuote').innerHTML=array[generateRandomNumber].quote;
-document.getElementById('author').innerHTML=array[generateRandomNumber].author;
+var generateRandomNumber=Math.floor(Math.random()*arrayOfQuotes.length);
+document.getElementById('myQuote').innerHTML=arrayOfQuotes[generateRandomNumber].quote;
+document.getElementById('author').innerHTML=arrayOfQuotes[generateRandomNumber].author;
 
 console.log(generateRandomNumber);
 
